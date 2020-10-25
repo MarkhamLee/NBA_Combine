@@ -8,9 +8,10 @@ This project makes heavy use of Jupyter Notebooks, if you don't have the environ
 
 **Included in this repository are the following files:**
 
-* NBA_Project(Revised).ipynb is the Jupyter notebook that contains the original code, some additions I after I had turned the project in also has analyses/write-up embedded into it. This is the primary source of the code for this project, and is more up to date than the individual python files. 
+* NBA_Project(Revised).ipynb is the Jupyter notebook that contains the original code, some additions I after I had turned the project in also has analyses/write-up embedded into it. This is the primary source of the code for this project, and is more up to date than the individual python files.
+* NBA_Project(Revised).pdf is a PDF version of the Jupyter Notebook, easier to consume for people that want to see the code but may not have a Jupyter environment. 
 * NBA_Report(FINAL).pdf is a detailed report of the project's findings: inclusive of visualizations, analysis, caveats and discussion of potential future enhancements. Those looking for results and analysis should look at this file.
-* high_level_summary(FINAL).pdf is a more academic style summary, it goes into more depth on the reasoning behind doing the project, research questions, methodology and problems encountered and provides a high level summary of the results. It's the "why and the how" more than it is a deep dive into the results. 
+* high_level_summary(FINAL).pdf is a more academic style summary, it goes into more depth on the reasoning behind doing the project, research questions, methodology and problems encountered and provides a high level summary of the results. It's the "why and the how" more than it is a deep dive into the results.
 * nba_stats contains the files with NBA player statistics
 * new_data contains the file with the NBA Combine information
 * data_analysis.py contains the code that generates all of the visualizations, it's the original code from the assignment, save the additional code I added to the Jupyter notebook
@@ -36,7 +37,7 @@ This project makes heavy use of Jupyter Notebooks, if you don't have the environ
 **Update Information**
 
 ### 10-25-2020
-* Added PDF version of Jupyter Notebook 
+* Added PDF version of Jupyter Notebook
 * Put this into its old repo instead of it being a directory under the portfolio repo
 
 #### 9-08-2020 NBA_Project(Revised)
