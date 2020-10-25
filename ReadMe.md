@@ -2,14 +2,16 @@
 
 By: Markham Lee
 
-This was a project for my CSE163 - Intermediate Data Programming Course at the University of Washington. The version posted here has some updated analysis related to the number of players above the average for points per game and win shares and those in the 75th percentile for same. The report PDF is also significantly streamlined as the report contained items that were very specific to the assignment rubric, and aren't particularly relevant outside of the class. Items called out in "version information" are items I specifically added to the project after I turned it in, in order to enhance it as a portfolio project.
+This was a project for my CSE163 - Intermediate Data Programming Course at the University of Washington. The goal of the project was to study the data coming out of the NBA Combine event (where the raw athletic ability of NBA draft prospects are measured through a series of events meant to test their agility, speed, strength and jumping ability), to see if there was any relationship between those measures of athleticism and on court performance. The project was inspired by NBA superstar [Kevin Durant](https://abcnews.go.com/Sports/kevin-durant-calls-nba-combine-waste-time-top/story?id=47338234), who had a historically bad performance at the combine but is already a future hall of fame who has won multiple championships. He claims that the combine is "meaningless", and this analysis is a an attempt at seeing if he's right via analyzing the data for the past ten NBA seasons. Another component of the project was to evaluate the general effectiveness of the NBA's methods for evaluating prospects, by looking at draft position vs. in game performance after reaching the NBA. *I.e. are draft busts rare are they closer to the norm?*
 
-This project makes heavy use of Jupyter Notebooks, if you don't have the environment for Jupyter Notebook, Binder is a free open source tool that can read a directory containing Jupyter Notebooks and provide a browser based environment to run them  in.
+The version posted has some rather significant updates vs. the one I did for my class, including updated analysis related to the number of players above the average for points per game and win shares and those in the 75th percentile for same and how that relates to the combine scores and draft position. The report PDF is also significantly streamlined as the original report contained items that were very specific to the assignment rubric, and aren't particularly relevant outside of the class. Items called out in *"update information"* are items I specifically added to the project after I turned it in, in order to enhance it as a portfolio project.
+
+This project makes heavy use of Jupyter Notebooks, however, if you don't have the environment for Jupyter Notebook, [Binder](https://mybinder.org/) is a free open source tool that can read a directory containing Jupyter Notebooks and provide a browser based environment to run them in.
 
 **Included in this repository are the following files:**
 
-* NBA_Project(Revised).ipynb is the Jupyter notebook that contains the original code, some additions I after I had turned the project in also has analyses/write-up embedded into it. This is the primary source of the code for this project, and is more up to date than the individual python files.
-* NBA_Project(Revised).pdf is a PDF version of the Jupyter Notebook, easier to consume for people that want to see the code but may not have a Jupyter environment. 
+* NBA_Project(Revised).ipynb is the Jupyter notebook that contains the original code and some additions I made after I had turned the project in. It also has additional analyses/write-up embedded into it. This is the primary source of the code for this project, and is more up to date than the individual python files.
+* NBA_Project(Revised).pdf is a PDF version of the Jupyter Notebook, easier to consume for people that want to see the code but may not have a Jupyter environment.
 * NBA_Report(FINAL).pdf is a detailed report of the project's findings: inclusive of visualizations, analysis, caveats and discussion of potential future enhancements. Those looking for results and analysis should look at this file.
 * high_level_summary(FINAL).pdf is a more academic style summary, it goes into more depth on the reasoning behind doing the project, research questions, methodology and problems encountered and provides a high level summary of the results. It's the "why and the how" more than it is a deep dive into the results.
 * nba_stats contains the files with NBA player statistics
@@ -32,13 +34,14 @@ This project makes heavy use of Jupyter Notebooks, if you don't have the environ
 * Managed the python environment and packages with Anaconda
 * IDE: Visual Studio Code for Python and Markdown file editing
 * Jupyter Notebook
-* Flake8 for code hygiene and lintiing for .py and .md files created in Visual Studio Code
+* Flake8 for code hygiene and lintiing the .py and .md files created in Visual Studio Code
 
-**Update Information**
+## Update Information
 
-### 10-25-2020
+#### 10-25-2020
+
 * Added PDF version of Jupyter Notebook
-* Put this into its old repo instead of it being a directory under the portfolio repo
+* Put this into its own repo instead of it being a directory under the portfolio repo
 
 #### 9-08-2020 NBA_Project(Revised)
 
@@ -60,8 +63,8 @@ This project makes heavy use of Jupyter Notebooks, if you don't have the environ
 
 #### Future changes
 
-* ~~Add a PDF file that's a high level summary of all findings replete with visualizations~~
-* Add a static version of the Jupyter Notebook
+* ~~Add a PDF file that's a high level summary of all findings replete with visualizations~~ COMPLETE
+* ~~Add a static version of the Jupyter Notebook~~ COMPLETE
 * Use the NBA API to gather a larger data set, extended the in game player statistics out to 20-30 seasons
 * Add combine data for a similar time frame as above
-* Repeat this analysis for the WNBA (if possible) and see if the patterns observed in the NBA data are similar
+* Repeat this analysis for the WNBA (if possible) and see if the patterns observed in the NBA data are similar to what's observed in the Women's game.
