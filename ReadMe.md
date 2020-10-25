@@ -35,10 +35,14 @@ This project makes heavy use of Jupyter Notebooks, if you don't have the environ
 
 **Update Information**
 
+### 10-25-2020
+* Added PDF version of Jupyter Notebook 
+* Put this into its old repo instead of it being a directory under the portfolio repo
+
 #### 9-08-2020 NBA_Project(Revised)
 
 * Added overview of the results (PPT saved as a PDF - NBA_report(FINAL).PDF)
-* Updated Jupyter Notebook, small tweaks + additional visualizations 
+* Updated Jupyter Notebook, small tweaks + additional visualizations
 
 #### 9-02-2020 NBA_Project(Revised)
 
